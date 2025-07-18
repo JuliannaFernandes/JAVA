@@ -1,6 +1,6 @@
 package animais;
 
-public class Pombo extends Animal {
+public class Pombo extends Ave {
     private int cartasEnviadas;
 
     public int getCartasEnviadas() {
@@ -10,10 +10,6 @@ public class Pombo extends Animal {
     public Pombo(String nome) {
         super(nome);
         cartasEnviadas = 4; // Inicializa o contador de cartas enviadas
-    }
-
-    public void voar() {
-        System.out.printf("O %s está voando.%n", getNome());
     }
 
     public void fazerPru(){

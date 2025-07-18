@@ -17,6 +17,7 @@ public class App {
         dragao.voar();
 
         Pombo pombo = new Pombo("Valiante");
+        pombo.voar();
         pombo.enviarCarta();
         pombo.fazerPru();
     }

@@ -11,5 +11,13 @@ public class App {
         gato.setNome("Mimi");
         gato.miar();
         gato.arranhar();
+
+        Dragao dragao = new Dragao("Furioso");
+        dragao.soltarFogo();
+        dragao.voar();
+
+        Pombo pombo = new Pombo("Valiante");
+        pombo.enviarCarta();
+        pombo.fazerPru();
     }
 }
